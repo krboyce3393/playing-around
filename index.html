@@ -1,29 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link href="dist/css/bootstrap.css" rel="stylesheet">
 	<link type="text/css" rel="stylesheet" href="stylesheets/main.css">
 	<title> Coding with Katie </title>
 </head>
 <body>
-	<header>
+	
+
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><Coding with Katie></a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">About Me</a></li>
+              <li><a href="#">Useful Links</a></li>
+
+            </ul>
+            <form class="navbar-form pull-right" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+      <div class="jumbotron">
 		<h1>Coding with Katie</h1>
-
-		
-
-		<ul>
-			<li>About Me!</li>
-			<li>Blog</li>
-			<li><a href="#useful-links">Useful Coding Links</a></li>
-		</ul>
-	</header>
+      
+		</div>
 
 	<p> Hi! My name's Katie and I've just started on Code First: Girls summer intensive coding course! <br> Over the next five weeks, I'll be learning the basics of Html, CSS and Python.</p>
 
 	<p id="useful-links"> You can follow Code First: Girls on Facebook and Twitter to see what other cool stuff they're up to!</p>
 
-	<button><a href="https://twitter.com/CodeFirstGirls">Twitter</a></button>
-	<button><a href="https://www.facebook.com/codefirstgirlsgeneral/">Facebook</a></button>
-	<br>
-	<br>
+<div id='social-buttons'>
+      <button class="btn btn-lg btn-twitter"><a href="https://twitter.com/CodeFirstGirls" >Twitter</a></button>
+      <button class="btn btn-lg btn-facebook"><a href="https://www.facebook.com/codefirstgirlsgeneral/">Facebook</a></button>
+      
+    </div>
+	
+	
 	<div><img src="https://pbs.twimg.com/profile_images/572786721922629632/XI4-Cw-n.png"></div>
 </body>
